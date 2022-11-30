@@ -8,6 +8,8 @@
   --logo-dark-color: #000000;
   --button-bkg-color: #f5f4fa;
   --button-hero-active: #188ce8;
+  --border-color: #eeeeee;
+  --border-color-header: #ececec;
 }
 
 *,
@@ -71,7 +73,7 @@ body {
 .box-header {
   height: 80px;
   display: flex;
-  border-bottom: 1px #ececec;
+  border-bottom: 1px solid var(--border-color-header);
 }
 
 .header-nav {
@@ -362,8 +364,15 @@ body {
   display: inline-block;
   /* margin-right: 30px; */
   margin-bottom: 30px;
+  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .box-projects-list {
   margin-top: 34px;
+}
+
+.box-projects-text {
+  margin-left: 24px;
 }
