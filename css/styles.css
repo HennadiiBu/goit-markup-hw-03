@@ -363,7 +363,8 @@ body {
 .box-projects-li {
   display: inline-block;
   /* margin-right: 30px; */
-  margin-bottom: 30px;
+  margin-right: 15px;
+  /* margin-bottom: 30px; */
   border-right: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
