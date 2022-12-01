@@ -81,7 +81,8 @@ body {
 }
 
 .box-logo {
-  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: auto;
 }
 
 .box-contacts {
@@ -300,7 +301,7 @@ body {
 
 .box-features {
   display: flex;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .box-features-list {
@@ -319,7 +320,7 @@ body {
 }
 
 .box-works-title {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .box-our-team {
@@ -357,7 +358,7 @@ body {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .box-projects-li {
