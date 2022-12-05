@@ -12,12 +12,6 @@
   --border-color-header: #ececec;
 }
 
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box; */
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -62,26 +56,23 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  display: block;
 }
 
 .site-navigation {
   display: flex;
   gap: 50px;
-  /* margin-top: 32px; */
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-left: 93px;
-  width: 281px;
 }
 
 .site-navigation-list {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .box-header {
-  height: 80px;
   display: flex;
-
 }
 
 .header-nav {
@@ -97,6 +88,7 @@ body {
   display: flex;
   margin-left: auto;
   gap: 50px;
+  padding-left: 0;
 }
 
 .accent {
@@ -104,6 +96,7 @@ body {
 }
 .list {
   list-style: none;
+  padding-left: 0;
 }
 
 .logo {
@@ -204,8 +197,8 @@ body {
 
 .section-team {
   background-color: var(--button-bkg-color);
- padding-top: 94px;
- padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .footer {
@@ -258,14 +251,21 @@ body {
   color: var(--main-color);
 }
 
+.box-features-li {
+  width: 270px;
+}
+
 .our-team {
   background-color: var(--main-background);
   padding: 30px;
-
 }
 
 .box-team-name {
   margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
 }
 
 .current {
@@ -275,6 +275,11 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--button-hero-active);
+}
+
+.hero-button {
+  width: 216px;
+  height: 50px;
 }
 
 .visually-hidden {
@@ -322,15 +327,18 @@ body {
 
 .box-features-list {
   display: flex;
+  padding: 0;
 }
 
 .box-features-text {
   margin-top: 10px;
   font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   width: 270px;
 }
 
-.box-features-text:not(lastchild) {
+.box-features-li:not(lastchild) {
   margin-right: 30px;
 }
 
@@ -338,6 +346,7 @@ body {
   display: flex;
   gap: 30px;
   margin-top: 50px;
+  padding-left: 0;
 }
 
 /* .box-works-title {
@@ -387,7 +396,6 @@ body {
   margin: 15px;
 }
 
-
 .box-projects-text {
   margin-bottom: 4px;
   width: 370px;
@@ -408,15 +416,15 @@ body {
 }
 
 .section-works {
-  padding-bottom: 94 px;
+  padding-bottom: 94px;
 }
 
-.box--link-adress {
-    margin-top: 20px;
+.box-link-adress {
+  margin-top: 20px;
 }
 
 .header-border {
-    border-bottom: 1px solid var(--border-color-header);
+  border-bottom: 1px solid var(--border-color-header);
 }
 
 .projects {
@@ -429,7 +437,7 @@ body {
   border-radius: 4px;
 }
 
-.box-projects-button-primary{
+.box-projects-button-primary {
   padding: 6px 25px;
   border-radius: 4px;
 }
