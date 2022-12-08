@@ -57,18 +57,14 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-navigation {
   display: flex;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-left: 93px;
-}
-
-.site-navigation-list {
-  display: block;
 }
 
 .box-header {
@@ -313,8 +309,6 @@ body {
 } */
 
 .box-hero-button {
-  width: 260px;
-  height: 50px;
   left: 50%;
   margin: 0 auto;
   display: block;
